@@ -17,14 +17,14 @@ module.exports = {
             bot.whisper(username, spam);
         } else {
             await sleep(600);
-            var word1 = ["Bro we are making a strip club", "https://www.youtube.com/channel/UCom74ILXH9-BANx9dCL_bvg", "Let's gooooooooooooooo", "thicc chiken at his base", "i guess subscribing is the most important part", "What's wrong with you?"];
+            var word1 = ["Bro we are making a strip club", "https://www.youtube.com/channel/UCom74ILXH9-BANx9dCL_bvg", "Let's gooooooooooooooo", "thicc chicken at his base", "i guess subscribing is the most important part", "What's wrong with you?"];
             var r = Math.floor(Math.random() * word1.length);
             bot.chat(word[r])
             resolve()
-            cooldown.add(bot.username);
+            cooldown.add(username);
             setTimeout(() => {
                 // Removes the user from the set after a minute
-                cooldown.delete(bot.username);
+                cooldown.delete(username);
             }, coolDownTime);
         };
     });
