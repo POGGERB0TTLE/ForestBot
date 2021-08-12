@@ -1,0 +1,13 @@
+{
+    "welcomeMessages": false,
+    "TabCommandAliases": ["test","testserver"],
+    "database": "testserver",
+    "mcServer": "8b8k.net",
+    "accountType": "microsoft",
+    "version": "1.12.2",
+    "prefix": "!",
+    "spam": "[Anti-Spam] - Please wait 3 seconds.",
+    "warnMessage": "Incorrect Syntax.",
+    "coolDownTime": 4000,
+    "mainLiveChat": ["837959083964497930", "833901367403216906"]
+}
