@@ -25,6 +25,7 @@ bot.addChatPattern("whisperFrom", /^\[([^ ]*) -> You\] (.*)$/, { parse: true });
 bot.addChatPattern("chat", /^<([^ ]*)> (.*)$/, { parse: true }); // <febzey> message
 bot.addChatPattern("chat", /^([^ ]*): (.*)$/, { parse: true }); // febzey: message
 bot.addChatPattern("chat", /^([^ ]*) » (.*)$/, { parse: true }); // febzey » message
+bot.addChatPattern("chat", /^([^ ]*) > (.*)$/, { parse: true }); // febzey > message
 
 bot.addChatPattern(
   "teleport",
