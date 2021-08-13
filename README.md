@@ -11,4 +11,4 @@ Requirements to run the bot: <br>
   -common sense <br>
   
   npm install <br>
-  node bot.js
+  npm start
