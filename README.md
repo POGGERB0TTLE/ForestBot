@@ -8,7 +8,7 @@ Requirements to run the bot: <br>
   -mysql database (kinda optional not really) <br>
   -nodejs <br>
   -a computer <br>
-  -basic understanding of nodejs <br>
+  -basic understanding of nodejs and mysql databases<br>
   
   npm install <br>
   npm start
