@@ -26,7 +26,7 @@
 
 "searchJoindate": "SELECT username, joindate FROM users WHERE username=?",
 
-"playtimeTop": "SELECT username, playtime FROM users ORDER BY playtime DESC LIMIT 3",
+"playtimeTop": "SELECT username, playtime FROM users ORDER BY playtime DESC LIMIT 4",
 
 "updateTabListBase64String": "UPDATE Misc SET tablist = ?"
 
