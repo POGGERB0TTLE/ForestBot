@@ -94,6 +94,7 @@ client.on("message", async (m) => {
   channel.forEach((chnl) => {
     if (m.channel.id !== chnl) return;
     if (m.author.id === client.user.id) return;
+    if (m.content.includes('\n')) return m.reply("Sorry, your messsage can't be that long.")
     bot.chat(`${m.member.user.tag} » ${m.content}`);
   })
   return;
