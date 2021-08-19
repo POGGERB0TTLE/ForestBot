@@ -101,6 +101,7 @@ client.on("message", async (m) => {
 
 bot.on("chat:chat", async (a) => { //minecraft bot main chat listener
   embed(grey, `**${a[0][0]}** » ${a[0][1]}`);
+  db.query(query.saveMessage, [a[0][0], a[0][1], monthYear()]);
 });
 
 const playtime = async () => { //playtime recorder for each player online (saves every minute)
