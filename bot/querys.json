@@ -1,4 +1,0 @@
-{
- "exampleQuery": "SELECT * FROM ? WHERE username = ?"
-}
-

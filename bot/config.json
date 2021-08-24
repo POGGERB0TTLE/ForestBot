@@ -1,8 +1,0 @@
-{
-    "welcomeMessages": false,
-    "database": "testserver",
-    "mcServer": "8b8k.net",
-    "accountType": "microsoft",
-    "version": "1.12.2",
-    "prefix": "!"
-}
