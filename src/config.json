@@ -1,0 +1,9 @@
+{
+    "welcomeMessages": false,
+    "database": "testserver",
+    "mcServer": "192.168.100.110",
+    "accountType": "microsoft",
+    "version": "1.16.5",
+    "viewerPort": 3000,
+    "prefix": "!"
+}

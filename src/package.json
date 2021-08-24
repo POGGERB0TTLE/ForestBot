@@ -1,0 +1,27 @@
+{
+  "name": "forestbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "date-and-time": "^1.0.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "minecraft-data": "^2.86.0",
+    "mineflayer": "^3.7.0",
+    "mineflayer-pathfinder": "^1.6.3",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "prismarine-viewer": "^1.19.3",
+    "urban-dictionary": "^3.0.2"
+  }
+}
